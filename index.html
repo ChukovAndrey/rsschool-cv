@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>HTML, CSS & Git Basics</title>
+</head>
+
+<body>
+  <div class="wrapper">
+    <header>
+      <h1>Junior Frontend Developer</h1>
+    </header>
+    <section>
+      <div class="photo-image">
+        <img class="photo" src="./img/img.png" alt="photo">
+      </div>
+      <h4>First name:</h4>
+      <p>Andrey</p>
+      <h4>Second name:</h4>
+      <p>Chukov</p>
+    </section>
+    <section>
+      <h4>Contacts:</h4>
+      <ul>
+        <li>
+          <a class="contacts" href="mailto:chukov.info@gmail.com">chukov.info@gmail.com</a>
+        </li>
+        <li>
+          <a class="contacts" href="tel:+7(926)556-02-12">+7(926)556-02-12</a>
+        </li>
+        <li class="contacts">
+          <details>
+            <summary>telegram</summary>
+            @Chukov_Andrey
+          </details>
+        </li>
+        <li class="contacts">
+          <details>
+            <summary>discord</summary>
+            Cadaverin#2415
+          </details>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h4>Summary:</h4>
+      <p>Highly motivated beginner with great passion of learning, trying to write clean and expressive code..with
+        tests.
+      </p>
+    </section>
+    <section>
+      <h4>Skills:</h4>
+      <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JS</li>
+        <li>Some experience with java, ruby and python</li>
+      </ul>
+    </section>
+    <section>
+      <h4>Code Examples:</h4>
+      <pre>
+        <code>
+          const destructFunc = (arr) => {
+            const [first, second, ...rest] = arr;
+            console.log(first);
+            console.log(second);
+            console.log(rest);
+          };
+        </code>
+      </pre>
+    </section>
+    <section>
+      <h4>Experience:</h4>
+      <p>Couple of small apps. For example: bug-tracker parser written in Java that collects data about current
+        tasks/bugs.</p>
+    </section>
+    <section>
+      <h4>Education:</h4>
+      <p>University degree(Moscow Aviation Institute). Self-education: code-basics, hexlet courses, books and Youtube
+        playlists.</p>
+    </section>
+    <section>
+      <h4>English:</h4>
+      <p>B1 - B2.. sort of.</p>
+    </section>
+  </div>
+  <footer>
+    <div class="date">&copy;2021</div>
+    <nav>
+      <a href="https://github.com/ChukovAndrey" target="_blank">
+        <img src="./img/icons/gh.png" class="github" alt="my-github-profile">
+      </a>
+      <a href="https://rs.school/js/" target="_blank">
+        <img src="./img/icons/rs_school_js.svg" class="rss" alt="rss-school">
+      </a>
+      <a href="https://www.youtube.com/channel/UC578nebW2Mn-mNgjEArGZug" target="_blank">
+        <img src="./img/icons/ytube.svg" class="youtube" alt="youtube">
+      </a>
+    </nav>
+  </footer>
+</body>
+
+</html>
